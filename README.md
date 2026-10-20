@@ -129,7 +129,3 @@ hybrid-full-adder-dual-vt/
 ## References
 
 *To be added from our literature review. Only papers we actually used will be listed.*
-
-## Team and acknowledgements
-
-*Team member names, faculty guide and acknowledgements to be added.*
