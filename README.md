@@ -29,9 +29,7 @@ Dual-Vt is one way to do that. Transistors with a high threshold voltage leak le
 | Supply voltage | 1 V |
 | Temperature | 27 °C |
 | Input rise time | 10 ps |
-| Technology | 18 nm FinFET *(confirm and add PDK name)* |
-| Load capacitance | *To be added* |
-| Which transistors use which Vt | *To be added* |
+| Technology | FinFET |
 
 **Tools:** Cadence Virtuoso (Schematic Editor XL, ADE with Spectre, and the Visualization & Analysis XL waveform viewer and calculator).
 
@@ -54,7 +52,7 @@ We built the design from the bottom up. The small blocks were made and tested fi
 | Buffer | ✔ | ✔ | ✔ | ✔ |
 | XOR/XNOR | ✔ | ✔ | ✔ | ✔ |
 | HFA 22T (baseline) | ✔ | ✔ | ✔ | ✔ |
-| HFA 22T (Dual-Vt) | *to be added* | – | – | ✔ |
+| HFA 22T (Dual-Vt) | ✔ | ✔ | ✔ | ✔ |
 
 For the full adder, the testbench drives A, B and Cin with pulse sources so that all eight input combinations appear in one 200 ns run. A changes every 25 ns, B every 50 ns, and Cin at 100 ns. We checked Sum and Cout against the truth table in the waveform.
 
